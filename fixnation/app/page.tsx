@@ -3,14 +3,16 @@ import { AppProps } from 'next/app';
 import TopBar from '@/app/components/TopBar';
 export default fixnation;
 
+
+
 function fixnation({ Component, pageProps }: AppProps) {
   return (
     <>
       <TopBar />
-     
+      
     </>
+    
   );
-  console.log;(`It works :3`)
 }
-
+console.log(`IT WORKS`);
 

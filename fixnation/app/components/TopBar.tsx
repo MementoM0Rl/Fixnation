@@ -5,11 +5,12 @@ const TopBar = () => {
   return (
     <div className={styles.topBar}>
       <div className={styles.logo}>
-        <Link href="/">Fixnation</Link>
+        <img src="/images/fixnation-logo.jpg"/>
+        
       </div>
       <div className={styles.nav}>
         <Link href="/about">About</Link>
-        <Link href="/services">Donate</Link>
+        <Link href="/Donate">Donate</Link>
         <Link href="/contact">Contact</Link>
       </div>
     </div>
