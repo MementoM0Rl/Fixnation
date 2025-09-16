@@ -1,5 +1,15 @@
 import Image from "next/image";
+import { AppProps } from 'next/app';
+import TopBar from '@/app/components/TopBar';
+export default fixnation;
 
-export default function Home() {
-
+function fixnation({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <TopBar />
+     
+    </>
+  );
 }
+
+
