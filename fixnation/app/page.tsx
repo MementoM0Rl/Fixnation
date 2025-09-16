@@ -10,6 +10,7 @@ function fixnation({ Component, pageProps }: AppProps) {
      
     </>
   );
+  console.log;(`It works :3`)
 }
 
 
