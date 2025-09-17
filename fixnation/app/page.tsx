@@ -14,6 +14,5 @@ function fixnation({ Component, pageProps }: AppProps) {
     
   );
 }
-console.log(`IT WORKS`);
 
 
