@@ -5,13 +5,16 @@ const TopBar = () => {
   return (
     <div className={styles.topBar}>
       <div className={styles.logo}>
-        <img src="/images/fixnation-logo.jpg"/>
+        <img src="/images/fixnation-logo.jpg"
+        className="
+        w-45 h-30"
+        />
         
+    
       </div>
       <div className={styles.nav}>
         <Link href="/about">About</Link>
         <Link href="/Donate">Donate</Link>
-        <Link href="/contact">Contact</Link>
       </div>
     </div>
   );

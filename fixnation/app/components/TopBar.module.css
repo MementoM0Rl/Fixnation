@@ -5,20 +5,29 @@
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   padding: 10px 20px;
+  box-shadow: 2.5px 2.5px 5px black ;
+  
 }
-
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 .nav a {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  background-color: #F7EED3;
   color: rgb(0, 0, 0);
-  text-decoration: none;
-  margin: 0 15px;
-  font-size: 1rem;
+  padding: 10px 20px;
 }
 
 .nav a:hover {
-  text-decoration: underline;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  background-color: #dbd3bc;
+  color: rgb(0, 0, 0);
+  padding: 11px 20px;
+  box-shadow: 1px 1px 3px;
 }
