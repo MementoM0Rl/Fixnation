@@ -14,7 +14,9 @@ const TopBar = () => {
       </div>
       <div className={styles.nav}>
         <Link href="/about">About</Link>
-        <Link href="/Donate">Donate</Link>
+      </div>
+      <div className={styles.nav}>
+        <Link href="/about">Donate</Link>
       </div>
     </div>
   );
