@@ -13,13 +13,14 @@
   font-weight: bold;
 }
 
-.nav a {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.nav {
+    display: flex;
+  align-items: left;
   background-color: #F7EED3;
   color: rgb(0, 0, 0);
   padding: 10px 20px;
+  margin-left: 9px;
+  margin-right: 1px;
 }
 
 .nav a:hover {

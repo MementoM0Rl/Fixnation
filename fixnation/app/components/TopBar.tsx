@@ -14,8 +14,6 @@ const TopBar = () => {
       </div>
       <div className={styles.nav}>
         <Link href="/about">About</Link>
-      </div>
-      <div className={styles.nav}>
         <Link href="/about">Donate</Link>
       </div>
     </div>
