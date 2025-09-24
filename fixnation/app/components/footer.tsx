@@ -29,8 +29,12 @@ const BottomBar: React.FC = () => (
             }}
         >
             <div style={{ display: 'flex', gap: '16px' }}>
-                <span>ABOUT US</span>
-                <span>CONTACT US</span>
+                <Link href="/about" style={{ color: '#FFFFFF', textDecoration: 'none' }}>
+                    ABOUT US
+                </Link>
+                <Link href="/contact" style={{ color: '#FFFFFF', textDecoration: 'none' }}>
+                    CONTACT US
+                </Link>
             </div>
             <div style={{ textAlign: 'right' }}>
                 © 2025 Fixnation. All rights reserved.

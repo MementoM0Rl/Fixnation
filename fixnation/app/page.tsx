@@ -1,15 +1,13 @@
 import Image from "next/image";
 import { AppProps } from 'next/app';
-import TopBar from '@/app/components/TopBar';
-import BottomBar from "./components/BottomBar";
 import TopBar from '@/app/components/header';
 import BottomBar from '@/app/components/footer';
+import { JSX } from "react";
 export default fixnation;
 
 
 
-function fixnation({  }: AppProps) {
-function fixnation({ Component, pageProps }: AppProps) {
+function fixnation({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <>
       <TopBar />
