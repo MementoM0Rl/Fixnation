@@ -5,8 +5,13 @@
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   padding: 10px 20px;
-  box-shadow: 2.5px 2.5px 5px black ;
-  
+  box-shadow: 2.5px 2.5px 5px black;
+  min-height: 111px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 .logo {
   font-size: 1.5rem;
