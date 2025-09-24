@@ -8,10 +8,28 @@ export default fixnation;
 
 function fixnation({ Component, pageProps }: AppProps) {
   return (
-    <><>
+    <>
       <TopBar />
+      <div
+        style={{
+          position: "relative",
+          width: "100%",
+          maxWidth: 1870,
+          aspectRatio: "475 / 375",
+          margin: "0 auto",
+          maxHeight: "-111px",
+        }}
+      >
+        <Image
+          src="/images/silly-kebby.jpg"
+          alt="Silly Kebby"
+          fill
+          style={{ objectFit: "contain" }}
+          sizes="(max-width: 1870px) 100vw, 1870px"
+        />
+      </div>
       <BottomBar />
-    </><img src="/images/silly-kebby.jpg" className="w-300 h-150" /></>
+    </>
   );
 }
 
