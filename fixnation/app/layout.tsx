@@ -27,10 +27,11 @@ export default function RootLayout({
     </html>
   );
 }
-module.exports = {
-  theme: {
-    colors: {
-      'darker-beige': '#F7EED3'
-    },
-  },
-}
+//module.exports = {
+// theme: {
+//    colors: {
+// 'darker-beige': '#F7EED3'
+// },
+// },
+  //was trying to make my own color scheme but it didnt work
+

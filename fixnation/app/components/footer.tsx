@@ -29,10 +29,10 @@ const BottomBar: React.FC = () => (
             }}
         >
             <div style={{ display: 'flex', gap: '16px' }}>
-                <Link href="/about" style={{ color: '#FFFFFF', textDecoration: 'none' }}>
+                <Link href="/AboutUs" style={{ color: '#FFFFFF', textDecoration: 'none' }}>
                     ABOUT US
                 </Link>
-                <Link href="/contact" style={{ color: '#FFFFFF', textDecoration: 'none' }}>
+                <Link href="/contactus" style={{ color: '#FFFFFF', textDecoration: 'none' }}>
                     CONTACT US
                 </Link>
             </div>
