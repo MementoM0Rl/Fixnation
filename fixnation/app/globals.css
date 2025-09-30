@@ -34,13 +34,6 @@ body {
   height: 850px;      
 }
 
-.right-image {
-  display : block;
-  margin-left: auto;
-  margin-right : -570;
-  width: 850px;
-  height: 850px;
-}
 
 .form-container {
   display: flex;
