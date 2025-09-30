@@ -7,7 +7,13 @@ const TopBar = () => {
   return (
     <div className={styles.topBar}>
       <div className={styles.logo}>
-        <img src="/images/fixnation-logo.jpg" className="w-45 h-30" />
+       <Link href="/">
+          <img
+            src="/images/fixnation-logo.jpg"
+            className="w-45 h-30"
+            alt="logo"
+          />
+        </Link>
       </div>
       <div className={styles.nav}>
         <span style={{ margin: '0 36px' }}></span>

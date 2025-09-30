@@ -26,4 +26,60 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.left-image {
+  display: block;
+  margin-left: -570;
+  margin-right: auto;
+  width: 850px;      
+  height: 850px;      
+}
+
+.right-image {
+  display : block;
+  margin-left: auto;
+  margin-right : -570;
+  width: 850px;
+  height: 850px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: flex-end; /* aligns the text box in contact us to the right */
+  padding: 10px 280px;
+}
+
+.form-box {
+  background-color: #674636; /* Light color box */
+  padding: 29px 32px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  width: fit-content;
+  padding: 8px 16px;
+  background-color: #AAB396;
+  color: 103, 70, 54;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
 }

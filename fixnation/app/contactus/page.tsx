@@ -15,36 +15,41 @@ export default function ContactUs() {
           margin: "40px auto 0 auto",
         }}
       >
-        <Image
-          src="/images/silly-kebby.jpg"
-          alt="Silly Kebby"
-          fill
-          style={{ objectFit: "contain" }}
-          sizes="(max-width: 800px) 100vw, 800px"
-        />
+      <Image
+         src="/images/fixnation-fursona.jpg"
+         alt="Fixnation Fursona"
+         width={800}
+         height={900}
+         className="left-image"
+      />
+
+
       </div>
-      <main style={{ maxWidth: 600, margin: "40px auto", padding: "0 16px" }}>
-        <h1>Contact Us</h1>
-        <p>
-          We'd love to hear from you! Please fill out the form below and we'll get back to you as soon as possible.
-        </p>
-        <form style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-          <label>
-            Name:
-            <input type="text" name="name" required style={{ width: "100%" }} />
-          </label>
-          <label>
-            Email:
-            <input type="email" name="email" required style={{ width: "100%" }} />
-          </label>
-          <label>
-            Message:
-            <textarea name="message" required rows={4} style={{ width: "100%" }} />
-          </label>
-          <button type="submit" style={{ width: "fit-content" }}>Send</button>
-        </form>
-      </main>
-      <BottomBar />
+     <div className="form-container">
+  <main className="form-box">
+    <h1>Contact Us</h1>
+    <p>
+      We'd love to hear from you! Please fill out the form below and we'll get back to you as soon as possible.
+    </p>
+    <form className="contact-form">
+      <label>
+        Name:
+        <input type="text" name="name" required />
+      </label>
+      <label>
+        Email:
+        <input type="email" name="email" required />
+      </label>
+      <label>
+        Message:
+        <textarea name="message" required rows={4} />
+      </label>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+</div>
+<BottomBar />
+
     </>
   );
 }

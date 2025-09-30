@@ -15,7 +15,7 @@ function fixnation({ Component, pageProps }: AppProps): JSX.Element {
         style={{
           position: "relative",
           width: "100%",
-          maxWidth: 1870,
+          maxWidth: 1940,
           aspectRatio: "475 / 375",
           margin: "0 auto",
           maxHeight: "-111px",
