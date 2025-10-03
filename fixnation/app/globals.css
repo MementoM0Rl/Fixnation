@@ -37,12 +37,12 @@ body {
 
 .form-container {
   display: flex;
-  justify-content: flex-end; /* aligns the text box in contact us to the right */
+  justify-content: flex-end; /* aligns the text box in contact us to the right :D */
   padding: 10px 280px;
 }
 
 .form-box {
-  background-color: #674636; /* Light color box */
+  background-color: #674636; /* Colors the box with text */
   padding: 29px 32px;
   max-width: 600px;
   width: 100%;
