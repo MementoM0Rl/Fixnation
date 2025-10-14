@@ -27,7 +27,7 @@ body {
 }
 
 .left-image {
-  display: block;
+  display: flex;
   margin-left: -570;
   margin-right: auto;
   width: 850px;      
